@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    
+    "name": "MoveStockAutomationTool",
+    "version": "1.2.3",
+    "description": "出庫対象の対象メーカーの薬品をピックアップします。",
+    "icons": { 
+        "16": "MoveStockAutomationTool_16.png",
+        "48": "MoveStockAutomationTool_48.png",
+        "128": "MoveStockAutomationTool_128.png"
+    },
+    "options_page" : "option.html",
+    "action" : {
+    },
+    "content_scripts" : [
+        {
+            "matches" : ["https://www.hogehoge.com/fugafuga/*"],
+            "js" : ["content_script.js", "stock_list.js"]
+        }
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    
+    "permissions": ["tabs", "storage"]
+}

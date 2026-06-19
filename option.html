@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="option.js" defer></script>
+        <link type="text/css" rel="stylesheet" href="option.css">
+    </head>    
+    <body>
+        <div class="container">
+            <h1 inert>オプション</h1>
+            <h2 inert>MoveStockAutomationTool</h2>
+            <div class="text-float-container">
+                <input class="text-float-textbox" id="waitTimeMsec" type="text"/>
+                <label class="text-float-label" inert>画面遷移の待機時間(ミリ秒) ※デフォルト値は300</label>
+            </div>
+            <div class="text-float-container">
+                <input class="text-float-textbox" id="retryCount" type="text"/>
+                <label class="text-float-label" inert>画面遷移のリトライ回数 ※デフォルト値は10</label>
+            </div>
+            <div>
+                <button class="save-button" id="save">保存</button>
+            </div>
+        </div>
+    </body>
+</html>
