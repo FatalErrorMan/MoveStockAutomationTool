@@ -10,6 +10,9 @@
 </p>
 <br/>
 
+## オプション画面の動作イメージ
+<img width="1080" height="581" alt="オプション画面動作イメージ" src="https://github.com/user-attachments/assets/91e672ce-c75e-404e-b5b7-3877c2600de3" />
+
 # :globe_with_meridians:概要
 
 ## 使用言語
@@ -48,9 +51,6 @@
 <br/><br/>
 
 # :page_with_curl:マニュアル
-
-## オプション画面の動作イメージ
-<img width="1080" height="581" alt="オプション画面動作イメージ" src="https://github.com/user-attachments/assets/91e672ce-c75e-404e-b5b7-3877c2600de3" />
 
 ## 確認済み動作環境
 - Windows 10/11
